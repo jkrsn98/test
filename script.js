@@ -29,9 +29,9 @@ function displayLogic(){
         setWeatherBoxOpacity('35%');
         setWeatherBoxBackground('windy1.gif');
       }
-    }else{
-      (temp>60 && temp<75)?setMessage("It's wonderful out."):setMessage("Enjoy your day.");
-    }
+    }else
+      if(temp>60 && temp<75)setMessage("It's wonderful out.");
+      else setMessage("Enjoy your day.");
   }
 
   if(day && cloudy){
