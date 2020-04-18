@@ -3,7 +3,8 @@ node_js:
   - "stable"
 
 deploy:
-  provider: netlify
-  site: silly-fermat-3bc2e9.netlify.app
-  auth: ea49de24896b84e241cbb41b46eb175ccb87a1a06b55f856077340668dacb336
-  edge: true # opt in to dpl v2
+  provider: script
+  script: netlify deploy -s $silly-fermat-3bc2e9 -t $ea49de24896b84e241cbb41b46eb175ccb87a1a06b55f856077340668dacb336 -p ./build
+  skip_cleanup: true
+  on:
+    branch: master
