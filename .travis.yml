@@ -3,9 +3,7 @@ node_js:
   - "stable"
 
 deploy:
-  provider: heroku
-  api_key: 053530ab-e0dc-4924-a897-38d0d226fc96
-  app: weatherapptest12
-  on:
-    repo: jkrsn98/test
-  edge: true
+  provider: netlify
+  site: silly-fermat-3bc2e9.netlify.app
+  auth: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDeQMJ+Uo7iTAhsXUgob8r6EftMRspb88fnGFuG6G58LN5qBDJDl0httwqiFvqN2nKHe20hVV/urt9LLql6x9jg6OgSJtVnHa9IcEpi0S1FGc4mqhvjIJi28Ei9BfLWZAJYAWxdSygVh0wfEaffwycHQzkrwI6OBDsexljyxBRjV1K33m7HyhTijoCoetpy6chWxOz3Dz1bHM9Zl2eglwZTE3c4Z+wH4rMQ5xztk8FbsB2fTR6MQVzSgzrksCPEq24fgicDIGwjdVgp+tXrKtziH8oSW08zlKo0fKNqGnHcCYdOllGOo+9IQDuXq9qgnsK9m4GWCY1zbni4DasUYNYGBrnBf7tonqQMX9rcZIciNGdSYzL1fayYSAbw1DuO94jd9ljhJiiJ1RkdWg612lvoi93cyhU4+FxE2cj+isbOT1XTqKewvWtHo2CpSOSuWm9SYmeNczIg0kgzfqjEFGgrnmn79Ld6LYwh1DLZdnSF4sLLbN7D9IHsiFOyUOObBT0KyAfTjoh3HUOsuY6F/7C7jLtvT4iAxyqeMkebGqgFZ9NMsIFbqKv9bMyngnHUZfXgRZI5vvBDuhdgG2bnJf+VO1asTmGds1SxRfiJO70yZ2r/nz4WknVLFwNaCohTWbcDnXQnn+OEfcdMsjz49bLzXP5BKFwBYagcOqHC7TJhGw==
+  edge: true # opt in to dpl v2
