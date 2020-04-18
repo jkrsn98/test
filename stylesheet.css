@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background-size: auto;
+  background-position: top;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#home{
+  background-color: rgb(107, 107, 130)	;
+}
+
+.title{
+  background-color: darkgray;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  opacity:20%;
+}
+
+.title em{
+  color:white;
+}
+
+.weatherBox{
+  font-family: Arial, 'Source Sans Pro', sans-serif;
+  background-color: darkgray;
+  background-size:cover;
+  width:22vw;
+  margin: 50px auto 0;
+  text-align: center;
+  font-size: 19vw;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.content{
+  opacity:100%;
+}
+
+.notif{
+  background-color: #3b2120;
+  background-image: url("");
+  font-size: 1.5vw;
+  font-weight:100;
+  color:white;
+  text-align: center;
+  width:25%;
+  top:80%;
+  margin-top:50px;
+  margin-left:auto;
+  margin-right:0;
+  float:right;
+  opacity: 40%;
+}
+
+.test{
+  position:absolute;
+  z-index:1;
+  line-height: 1px;
+  text-align: center;
+  bottom:0;
+  color:white;
+}
+
+a:link, a:visited{
+  color:	rgb(28, 51, 74);
+  text-decoration: none;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  text-align: right;
+  width:98%;
+  color:white;
+}
+
+.form{
+  padding-top: 400px;
+  margin: 0 auto;
+  font-size: 72px;
+  text-align: center;
+  opacity: 75%;
+}
+
+input[type="text"]{
+  min-height: 25px;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 5px;
+  border:2px solid #cccccc;
+}
+
+input[type="submit"]{
+  min-height:25px;
+  font-size: 24px;
+  border-radius: 5px;
+  border:2px solid #cccccc;
+}
+#submissionBox{
+  padding:0px 15px 0px 15px;
+}
+#submissionBox:hover{
+  opacity:50%;
+}
