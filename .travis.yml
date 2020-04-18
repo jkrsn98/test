@@ -5,4 +5,7 @@ node_js:
 deploy:
   provider: heroku
   api_key: 053530ab-e0dc-4924-a897-38d0d226fc96
+  app: weatherapptest12
+  on:
+    repo: jkrsn98/test
   edge: true
