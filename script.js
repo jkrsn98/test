@@ -148,8 +148,8 @@ $.ajax({
     console.log(data);
     temp= Math.floor(data.currently.temperature);
     windy = Math.floor(data.currently.windSpeed)>9?true:false;
-    rain = (data.currently.precipProbability)>.5?true:false;
-    cloudy = (data.currently.cloudCover)>.45?true:false;
+    rain = (data.currently.precipProbability)>0.5?true:false;
+    cloudy = (data.currently.cloudCover)>0.45?true:false;
     console.log("windy?" + windy);
     console.log("cloudy?" + cloudy);
     console.log("rain: " + rain);
